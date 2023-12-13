@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<title>About Me</title>
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<link rel="stylesheet" href="./dist/css/custom.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet" />
+
+
+<body>
+
+  <header class="header-top">
+    <div class="header">
+    <nav class="navbar">
+      <div class="nav-item logo-con">
+        <img src="./dist/img/icon/logo.svg" class="logo" alt="Portfolio">
+      </div>
+      <ul class="nav-item nav-resp">
+        <li class="nav-menu"><a class="" href="./index.html">Home</a></li>
+        <li class="nav-menu"><a class="" href="./About.html">About</a></li>
+        <li class="nav-menu"><a class="active" href="./Projects.html">Projects</a></li>
+        <li class="nav-menu"><a class="" href="./Skills.html">Skills</a></li>
+        <!-- <li class=""><a class="" href="./Artworks.html">Artworks</a></li> -->
+      </ul>
+      <div class="nav-item contact">
+        <div class="button">
+          Contact
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <div class="container" id="unik">
+    <div class="wrapper">
+
+    <div class="custom-grid-left">
+      <div class="custom-grid-down mt-0">
+        <div class="img-container-center">
+          <img class="img" src="./dist/img/Rian.png">
+        </div>
+      </div>
+      <div class=" p-2 grid-auto-row m-0">
+        <div class="custom-grid-left">
+          <div class="custom-grid-down mx-auto">
+            <div class="h2">
+              My <span class="base-color">Project</span>
+            </div>
+            <p class="text-justify">
+                            <strong class="base-color"> Check out some of my latest project! </strong><br>
+
+
+                  including UI/UX design, front-end development, graphic design, Illustration, and websites.
+                  I've worked as student Employment, freelance, and employed developer on range of different projects.
+                  
+                </div>
+            </p>
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <h1 class="title">My Works</h1>
+      <iframe src="./work.html" class="work-iframe" style="border:none;" title="Iframe Example"></iframe>
+      <iframe src="./footer.html" class="footer-iframe" ></iframe>
+
+    </div>
+    </div>
+
+   
+
+
+</body>
+<script src="./dist/js/custom.js"></script>
+<script>
+  const navbar = document.querySelector('.header');
+window.onscroll = () => {
+    if (window.scrollY > 70) {
+       navbar.classList.add('scrolled');
+    } else {
+       navbar.classList.remove('scrolled');
+   }
+};
+</script>
+
+</html>

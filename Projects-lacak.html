@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8" />
+<title>Project - LACAK</title>
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
+<link rel="stylesheet" href="./dist/css/custom.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+  rel="stylesheet" />
+
+
+<body>
+
+  <header class="header-top">
+    <div class="header">
+    <nav class="navbar">
+      <div class="nav-item logo-con">
+        <img src="./dist/img/icon/logo.svg" class="logo" alt="Portfolio">
+      </div>
+      <ul class="nav-item nav-resp">
+        <li class="nav-menu"><a class="" href="./index.html">Home</a></li>
+        <li class="nav-menu"><a class="" href="./About.html">About</a></li>
+        <li class="nav-menu"><a class="active" href="./Projects.html">Projects</a></li>
+        <li class="nav-menu"><a class="" href="./Skills.html">Skills</a></li>
+        <!-- <li class=""><a class="" href="./Artworks.html">Artworks</a></li> -->
+      </ul>
+      <div class="nav-item contact">
+        <div class="button">
+          Contact
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+  <div class="container" id="unik">
+    <div class="wrapper">
+
+    <div class="custom-grid-left">
+      <div class="w-100 mt-0">
+        <div class="work-img-container-center">
+          <img class="img-work work-lacak img-work-bg w-100" src="./dist/img/pc.png">
+        </div>
+      </div>
+      <div class="w-100 p-2 grid-auto-row m-0">
+        <div class="custom-grid-left">
+          <div class="custom-grid-down mx-auto">
+            <div class="h2">
+              LACAK <span class="base-color">UNY</span>
+            </div>
+            <p class="text-justify">
+              Designed and developed UI/UX for Accountability and Performance Achievement Information System used by Universitas Negeri Yogyakarta's planning sector. This website has over <strong class="base-color">30 users.</strong> and developed with CSS frameworks for the front-end.
+              
+              Managed to teach and train the client for how to use the website with meet method which makes the client <strong class="base-color">90%</strong> of comprehension.
+              
+              <p>
+              <hr>
+              <strong class="base-color mt-1">2022 - Present</strong>
+            </p>
+            <a href="https://lacak.uny.ac.id/" class=" button base-color">
+             Take a peek!
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-2 custom-grid-left">
+      <div class="custom-grid-down item-50">
+        <h1 class="title">Case</h1>
+        <p class="text-justify">
+                  This project involves the Planning Department of UNY as the client. My team and I were tasked with creating a website capable of managing accountability reports and work achievements at UNY. In this project, 
+                  I served as the <strong class="base-color">Front End Developer.</strong> Responsible for designing the website interface.
+        </p>
+        </div>
+
+        <div class="custom-grid-down item-50">
+          <h1 class="title">Tools</h1>
+          <div class="tools">
+            <div class="tools-item">
+              <div class="tools-img-container">
+                <img class="tools-img" src="./dist/img/icon/vscode.png">
+              </div>
+            </div>
+            <div class="tools-item">
+              <div class="tools-img-container">
+                <img class="tools-img" src="./dist/img/icon/corel.png">
+              </div>
+            </div>
+            <div class="tools-item">
+              <div class="tools-img-container">
+                <img class="tools-img" src="./dist/img/icon/figma.png">
+              </div>
+            </div>
+
+            
+          </div>   
+
+            
+          </div>
+        </div>
+      <div class="custom-grid-down">
+        <h1 class="title">Interface</h1>
+
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <img src="./dist/img/lacak.png"  class="slide-img">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./dist/img/lacak-1.png" class="slide-img">
+          </div>
+          
+          <div class="mySlides fade">
+            <img src="./dist/img/lacak-2.png"class="slide-img">
+          </div>
+          
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+          </div>
+          <br>
+        
+          
+          </div>
+        
+          <iframe src="./footer.html" class="footer-iframe" ></iframe>
+
+      </div>
+      </div>
+
+</body>
+<script src="./dist/js/custom.js"></script>
+<script>
+  const navbar = document.querySelector('.header');
+window.onscroll = () => {
+    if (window.scrollY > 70) {
+       navbar.classList.add('scrolled');
+    } else {
+       navbar.classList.remove('scrolled');
+   }
+};
+</script>
+
+</html>
