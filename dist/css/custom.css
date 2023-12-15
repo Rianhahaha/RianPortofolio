@@ -72,6 +72,14 @@ body {
   margin: 20px;
 
 }
+
+.redirect {
+  margin: auto;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
 .body {
   margin: 20px;
   min-width: fit-content;
@@ -142,6 +150,9 @@ body {
   }
   .custom-grid-down {
     padding:  1rem 0 1rem 0;
+  }
+  .flex-selangseling {
+    flex-direction: column-reverse!important;
   }
 
 /* image */
