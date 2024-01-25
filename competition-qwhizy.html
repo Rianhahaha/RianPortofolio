@@ -17,7 +17,10 @@
       <div class="nav-item logo-con">
         <img src="./dist/img/icon/logo.svg" class="logo" alt="Portfolio">
       </div>
-      <ul class="nav-item nav-resp">
+      <ul class="nav-item nav-resp" id="resp">
+        <div class="nav-item burger" onclick="closeNav()" style="display: none; margin:1rem 1rem 0rem 1rem; align-self: end;">
+          <img src="./dist/img/icon/burger.svg" class="burger-icon">
+        </div>
         <li class="nav-menu"><a class="" href="./index.html">Home</a></li>
         <li class="nav-menu"><a class="active" href="./About.html">About</a></li>
         <li class="nav-menu"><a class="" href="./Projects.html">Projects</a></li>
@@ -28,6 +31,9 @@
         <a class="button" href="mailto: triandiaprilio@gmail.com">
           Contact
         </a>
+      </div>
+      <div class="nav-item burger" onclick="openNav()" style="display: none;">
+        <img src="./dist/img/icon/burger.svg" class="burger-icon">
       </div>
     </nav>
   </div>

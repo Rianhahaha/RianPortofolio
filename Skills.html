@@ -12,26 +12,32 @@
 <body>
   
   <header class="header-top">
-      <div class="header">
-      <nav class="navbar">
-        <div class="nav-item logo-con">
-          <img src="./dist/img/icon/logo.svg" class="logo" alt="Portfolio">
+    <div class="header">
+    <nav class="navbar">
+      <div class="nav-item logo-con">
+        <img src="./dist/img/icon/logo.svg" class="logo" alt="Portfolio">
+      </div>
+      <ul class="nav-item nav-resp" id="resp">
+        <div class="nav-item burger" onclick="closeNav()" style="display: none; margin:1rem 1rem 0rem 1rem; align-self: end;">
+          <img src="./dist/img/icon/burger.svg" class="burger-icon">
         </div>
-        <ul class="nav-item nav-resp">
-          <li class="nav-menu"><a class="" href="./index.html">Home</a></li>
-          <li class="nav-menu"><a class="" href="./About.html">About</a></li>
-          <li class="nav-menu"><a class="" href="./Projects.html">Projects</a></li>
-          <li class="nav-menu"><a class="active" href="./Skills.html">Skills</a></li>
-          <!-- <li class=""><a class="" href="./Artworks.html">Artworks</a></li> -->
-        </ul>
-        <div class="nav-item contact">
-          <a class="button" href="mailto: triandiaprilio@gmail.com">
-            Contact
-          </a>
-        </div>
-      </nav>
-    </div>
-  </header>
+        <li class="nav-menu"><a class="" href="./index.html">Home</a></li>
+        <li class="nav-menu"><a class="" href="./About.html">About</a></li>
+        <li class="nav-menu"><a class="" href="./Projects.html">Projects</a></li>
+        <li class="nav-menu"><a class="active" href="./Skills.html">Skills</a></li>
+        <!-- <li class=""><a class="" href="./Artworks.html">Artworks</a></li> -->
+      </ul>
+      <div class="nav-item contact">
+        <a class="button" href="mailto: triandiaprilio@gmail.com">
+          Contact
+        </a>
+      </div>
+      <div class="nav-item burger" onclick="openNav()" style="display: none;">
+        <img src="./dist/img/icon/burger.svg" class="burger-icon">
+      </div>
+    </nav>
+  </div>
+</header>
 
   <div class="container" id="unik">
     <div class="wrapper">
@@ -167,6 +173,12 @@ window.onscroll = () => {
        navbar.classList.remove('scrolled');
    }
 };
+function openNav() {
+        document.getElementById("resp").style.top = "0px";
+    }
+      function closeNav() {
+        document.getElementById("resp").style.top = "-500px";
+    }
 </script>
 
 </html>

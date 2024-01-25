@@ -38,3 +38,19 @@ window.onscroll = function() {
     document.getElementsByTagName("header")[0].classList.remove(className);
   }
 };
+
+      function openNav() {
+        document.getElementById("resp").style.top = "0px";
+    }
+      function closeNav() {
+        document.getElementById("resp").style.top = "-500px";
+    }
+
+// var X = document.getElementsByClassName('nav-resp');
+// function navbarBurger() {
+//   if(X.style.position === 'fixed') {
+//     X.style.top = '-100px';
+//   } else {
+//     X.style.top = '1px'
+//   }
+// }
