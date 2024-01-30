@@ -389,6 +389,7 @@ li.icon:hover {
   padding: 1rem;
   margin: auto;
   display: grid;
+  width: 100%;
 }
 
 /* image */
